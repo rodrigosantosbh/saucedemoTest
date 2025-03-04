@@ -8,7 +8,7 @@ describe('Teste Produtos', () => {
   beforeEach(() => {
 
     cy.visit(Cypress.config('prod'));
-    cy.login("standard_user", "password");
+    cy.login("password_standard_user", "password");
   });
 
   it('Adiciona produto no carrinho...', function() {
